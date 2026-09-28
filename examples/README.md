@@ -10,6 +10,14 @@ These examples answer the question: *"What does it actually look like when the f
 
 ## Contents
 
+### [brake-factory-export/](./brake-factory-export/README.md)
+
+A minimal four-agent Codex project for a China-based brake-cylinder factory:
+customer research, four-channel content assets, B2B qualification, first contact
+and RFQ follow-up. Includes scoped roles, handoff templates and a project setup
+command that reuses the existing converter and selective installer. This is an
+operating preset, not a claim of completed customer acquisition.
+
 ### [nexus-spatial-discovery.md](./nexus-spatial-discovery.md)
 
 **What:** A complete product discovery exercise where 8 agents worked in parallel to evaluate a software opportunity and produce a unified plan.

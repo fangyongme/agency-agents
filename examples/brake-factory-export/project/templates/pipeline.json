@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "buyers": [],
+  "rfqs": [],
+  "publications": [],
+  "events": [],
+  "suppressions": [],
+  "approvals": [],
+  "record_templates": {
+    "buyer": {
+      "buyer_id": null, "company": null, "canonical_domain": null,
+      "country": null, "business_type": null, "aliases": [], "contacts": [],
+      "stage": "research_needed", "owner": null, "duplicate_of": null,
+      "scores": {"business_model": 0, "product_relevance": 0, "vehicle_application": 0, "market_fit": 0, "contact_evidence": 0},
+      "score_total": 0, "hard_gates_passed": false, "qualification_reasons": [],
+      "evidence": [], "first_source": "unknown", "content_id": null,
+      "next_action": null, "next_action_at": null, "timezone": null
+    },
+    "contact": {
+      "contact_id": null, "name": null, "role": null, "channel": null,
+      "destination": null, "verified_company_association": false,
+      "verification_source": null, "verified_at": null, "marketing_permission": "unknown"
+    },
+    "evidence": {"source": null, "accessed_at": null, "excerpt": null, "supports": null, "confidence": "unknown"},
+    "publication": {
+      "content_id": null, "platform": null, "format": null, "revision": null,
+      "asset_paths": [], "stage": "draft", "approval_id": null,
+      "published_at": null, "url": null, "metrics_window_hours": null,
+      "metrics_captured_at": null, "metrics": {}, "attributed_buyer_ids": []
+    },
+    "event": {
+      "event_id": null, "entity_id": null, "timestamp_utc": null, "owner": null,
+      "from_stage": null, "to_stage": null, "action": null,
+      "receipt_or_source": null, "error": null, "next_action": null
+    },
+    "approval": {
+      "approval_id": null, "actor": null, "timestamp_utc": null,
+      "scope": null, "targets": [], "revision": null, "authorization_evidence": null
+    },
+    "suppression": {"buyer_id": null, "contact_id": null, "reason": null, "source": null, "timestamp_utc": null}
+  }
+}
