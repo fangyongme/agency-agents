@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "positioning": {
+    "business": "China-based brake-cylinder manufacturer",
+    "vehicle_groups": ["Japanese", "Korean", "Chinese-brand"],
+    "account_voice": "Real person representing the factory",
+    "quotation_system": "Internal tool for this factory's catalog only",
+    "primary_buyer_types": ["importer", "wholesaler", "parts distributor"],
+    "customer_copy_language": "en",
+    "evidence_note": "Broad positioning from the owner's existing brief; does not confirm individual SKU fitment."
+  },
+  "factory_name": null,
+  "website": null,
+  "sender": {"name": null, "title": null, "business_email": null},
+  "target_markets": [],
+  "confirmed_serviceable_markets": [],
+  "product_families": [],
+  "approved_catalog_path": null,
+  "approved_claims": [],
+  "asset_index_path": null,
+  "certification_evidence": [],
+  "quotation_owner": null,
+  "quotation_export_path": null,
+  "business_terms": {"moq": null, "currency": null, "lead_time": null, "sample_policy": null},
+  "published_business_contacts": {},
+  "authorized_channels": [],
+  "notes": "Empty fields are unknown. Do not fill them with guesses or treat this example as approval."
+}

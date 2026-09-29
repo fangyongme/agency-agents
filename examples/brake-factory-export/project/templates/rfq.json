@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "rfq_id": null,
+  "buyer_id": null,
+  "received_at": null,
+  "original_source": null,
+  "customer_language": null,
+  "country_or_market": null,
+  "business_identity_verified": false,
+  "stage": "received",
+  "owner": null,
+  "items": [],
+  "item_template": {
+    "line_id": null,
+    "source_position": {"file": null, "sheet": null, "row_or_image_region": null},
+    "raw_description": null, "raw_oe": null, "normalized_oe": null,
+    "raw_quantity": null, "quantity": null, "unit": null,
+    "candidate_skus": [], "confirmed_sku": null, "catalog_evidence": null,
+    "match_status": "unreviewed", "uncertainties": [],
+    "product_reviewer": null, "review_evidence": null,
+    "quote_line_status": "unquoted", "unquoted_reason": null
+  },
+  "quote": {
+    "quote_id": null, "version": null, "source_path": null,
+    "approved_by": null, "approval_evidence": null, "approved_at": null,
+    "currency": null, "valid_until": null, "incoterm": null,
+    "payment_terms": null, "freight_terms": null, "lines": [],
+    "line_template": {"line_id": null, "sku": null, "quantity": null, "unit": null, "unit_price": null, "moq": null, "lead_time": null},
+    "sent_at": null, "delivery_receipt": null
+  },
+  "missing_information": [],
+  "next_action": null,
+  "next_action_at": null,
+  "order_confirmation_source": null,
+  "payment_confirmation_source": null
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/fangyongme/agency-agents",
+  "baseline_pr": 60,
+  "baseline_commit": "479193dcce1cf6432ce0f5aa230ab8cc739a8c6b",
+  "verified_date": "2026-09-28",
+  "adaptation": "Role bodies are deliberately scoped derivatives; upstream identities and conversion/install scripts are retained.",
+  "agents": [
+    {
+      "slug": "outbound-strategist",
+      "name": "Outbound Strategist",
+      "source": "sales/sales-outbound-strategist.md",
+      "role": "roles/outbound-strategist.md",
+      "description": "Research and qualify evidenced B2B buyers for the brake factory; hand off ICP and verified prospects."
+    },
+    {
+      "slug": "social-media-strategist",
+      "name": "Social Media Strategist",
+      "source": "marketing/marketing-social-media-strategist.md",
+      "role": "roles/social-media-strategist.md",
+      "description": "Produce the factory content brief, LinkedIn draft, cross-platform review and qualified-RFQ analysis."
+    },
+    {
+      "slug": "video-optimization-specialist",
+      "name": "Video Optimization Specialist",
+      "source": "marketing/marketing-video-optimization-specialist.md",
+      "role": "roles/video-optimization-specialist.md",
+      "description": "Prepare TikTok, Instagram and YouTube scripts, captions, shot lists and packaging from verified factory assets."
+    },
+    {
+      "slug": "sales-outreach",
+      "name": "Sales Outreach",
+      "source": "specialized/sales-outreach.md",
+      "role": "roles/sales-outreach.md",
+      "description": "Draft first contact, clarify RFQs and follow up approved factory quotes with verified buyers."
+    }
+  ],
+  "source_sha256": {
+    "sales/sales-outbound-strategist.md": "4f6c8abf9c936fbe5f4b66fc8044096e3dd5199f8f8ae9d0309ad92bc0653174",
+    "marketing/marketing-social-media-strategist.md": "7c698a9280872666b2726b7ca305c6d4890fcb95a098c7c316beb9bf5fdb4274",
+    "marketing/marketing-video-optimization-specialist.md": "9cf82969be8898c96192617becf5e38e8de6b79650c362d840c53d2c10f2e8b9",
+    "specialized/sales-outreach.md": "84d4ca90d4bed4649904c8f239f8e13f373274c8bceb6fd7eb2479e6f9e28c90",
+    "scripts/convert.sh": "3150caa3e654b5ec23bf2e467c366183e64264cfeadb655ba9cda017bd050683",
+    "scripts/install.sh": "2540b2845ba0c3e2264bdd83c184035910b8a72f88c2367d0f4a62de98525c88",
+    "scripts/lib.sh": "f5c9a94cdeae6905816b072dd8d2d378c3e28793dce08ebbb39c91147a29bd5e",
+    "divisions.json": "a85d4ceeabe671051559e7703dfca074bf7a259ba26b61fb5e14ed36d54ae051",
+    "LICENSE": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+  }
+}

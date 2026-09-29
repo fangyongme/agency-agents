@@ -1,0 +1,5 @@
+# Minimal factory team; consumed by the existing install.sh --agents-file.
+outbound-strategist
+social-media-strategist
+video-optimization-specialist
+sales-outreach

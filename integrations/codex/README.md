@@ -22,6 +22,14 @@ fields: `name`, `description`, and `developer_instructions`.
 
 This copies generated agent files to `~/.codex/agents/`.
 
+### Minimal Factory Project
+
+For a scoped four-agent brake-factory export workflow, see the
+[factory project preset](../../examples/brake-factory-export/README.md). It
+reuses this converter and the installer's `--agents-file` / `--path` options to
+create project-local `.codex/agents/` files with tailored factory instructions,
+handoff templates and a private pipeline. It does not install the full roster.
+
 ## Generated Format
 
 Each generated file lives in:

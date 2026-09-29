@@ -1,0 +1,5 @@
+# Private operational data; templates remain versioned.
+/knowledge/factory-profile.json
+/work/
+.env
+.env.*
